@@ -1,0 +1,82 @@
+body{
+	background-image: url(Transfer.jpg);
+	background-attachment: fixed;
+	background-size: cover;;
+}
+
+nav{
+	background-color:#5C656B;
+	opacity:0.7;
+}
+
+nav ul{
+	margin:5px;
+	padding:10px;
+}
+
+nav ul li{
+	list-style-type:none;
+	display:inline;
+	padding:20px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:black;
+	cursor:pointer;
+	padding: 14px 14px;
+}
+
+nav ul li a:hover{
+	background-color:#ffffff;
+	border-radius:5px;
+	
+}
+
+h1{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 5px;
+	text-decoration: underline;
+	font-size: 30px;
+
+}
+
+.form{
+	margin-top:8px;
+	background-color:whitesmoke; 
+	text-align: center;
+	width: 400px;
+	position: absolute;
+	padding:40px;
+	top:45%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border-bottom-right-radius:60px;
+	border-top-left-radius: 60px;
+	box-shadow: 7px 7px grey;
+	
+}
+
+.form input[type = text], select{
+	display: block;
+	text-align: center;
+	width: 350px;
+	padding: 15px;
+	border-radius:15px;
+	color: black;
+	font-weight: bolder;
+	background-color:#C0C0C0;
+	opacity: 0.8;
+	
+	}
+
+input[type=submit]{
+	width: 220px;
+	padding: 10px;
+	border-radius: 8px;
+	cursor: pointer;
+	background-color:#1E90FF;
+}

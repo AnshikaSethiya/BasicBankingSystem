@@ -1,0 +1,74 @@
+body{
+	background-image: url(indexBack.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	}
+
+nav{
+	background-color:#5C656B;
+	opacity:0.7;
+}
+
+nav ul{
+	margin:5px;
+	padding:10px;
+}
+
+nav ul li{
+	list-style-type:none;
+	display:inline;
+	padding:20px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:black;
+	cursor:pointer;
+	padding: 14px 14px;
+}
+
+nav ul li a:hover{
+	background-color:#ffffff;
+	border-radius:5px;
+	
+}
+
+h1{
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+table{
+	font-family:'Times New Roman', Times, serif;
+	margin-top: 25px;
+	margin-left:370px;
+	width:700px;
+	box-shadow: 5px 12px 12px 5px #B4AF9E ;
+}
+
+table, td, th{
+font-size: 20px;
+font-weight: 200;
+padding:12px;
+border:1px solid;
+border-collapse:collapse;
+text-align:center;
+}
+
+table th{
+background-color: #B4AF9E;
+font-size:19px;
+font-weight:bold;
+}
+
+table tr:hover{
+	background-color:snow;
+	opacity: 0.6;
+	font-size: 35px;
+	font-weight: bold;
+ }

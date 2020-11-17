@@ -1,0 +1,162 @@
+body{
+background-image: url(indexBack.jpg);
+background-attachment:fixed;
+background-size:cover;
+}
+
+nav{
+	background-color:#5C656B;
+	opacity:0.7;
+}
+
+nav ul{
+	margin:5px;
+	padding:10px;
+}
+
+nav ul li{
+	list-style-type:none;
+	display:inline;
+	padding:20px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:black;
+	cursor:pointer;
+	padding: 14px 14px;
+}
+
+nav ul li a:hover{
+	background-color:#ffffff;
+	border-radius:5px;
+	
+}
+
+.container{
+ text-align: center;
+ position: absolute;
+ top: 50%;
+ left:50%;
+ transform: translate(-50%, -50%);
+ width: 100%;
+}
+
+.container span{
+	display: block;
+}
+
+.text1{
+	color: black;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 8px;
+	margin-bottom: 20px;
+	position: relative;
+	background: #D3D3D3;
+	animation: text 3s 1;
+	text-transform: uppercase;
+}
+.text2{
+	font-size: 35px;
+	 color:black;
+	 font-weight: bold;
+	 text-transform: capitalize;
+	 font-family: 'Dancing Script', cursive;
+
+}
+
+@keyframes text{
+	0%{
+		color: black;
+		margin-bottom: -40px;
+	}
+	30%{
+		letter-spacing: 25px;
+		margin-bottom: -40px;
+	}
+	85%{
+		letter-spacing: 8px;
+		margin-bottom: -40px;
+	}
+}
+
+/*  			Syles for User_list page     			 */
+
+table{
+		font-family:'Times New Roman', Times, serif;
+		margin-top: 5px;
+		margin-left:130px;
+		width:1100px;
+		box-shadow: 5px 12px 12px 5px #B4AF9E ;
+}
+
+table, td, th{
+	font-size: 20px;
+	font-weight: 200;
+	padding:15px;
+	border:1px solid;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+table th{
+	background-color: #B4AF9E;
+	font-size:19px;
+	font-weight:bold;
+}
+
+table a{
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+table tr:hover{
+	background-color: #8FBC8F;
+	font-size: 35px;
+	font-weight: bold;
+ }
+
+
+.block{
+	 text-align: justify;
+	 font-size: 22px;
+	 margin-left:300px;
+	 margin-right: 300px;
+	 margin-top:120px;
+	 word-spacing: 3px;
+	 background: snow;
+	 opacity: 0.7;
+	 box-shadow: 5px 5px gray;
+	 padding: 2px;
+	 padding-left:20px;
+	 padding-right:20px;
+}
+
+ footer{
+	 margin-top:540px;
+	background-color:#5C656B;
+	opacity:0.7;
+	font-size:25px;
+	text-align: center;
+	font-weight:bolder;
+	font-family: 'Dancing Script', cursive;
+	padding:2px;
+ }
+ 
+ .foot{
+	margin-top:100px;
+	background-color:#5C656B;
+	opacity:0.7;
+	font-size:25px;
+	text-align: center;
+	font-weight:bolder;
+	font-family: 'Dancing Script', cursive;
+	padding:2px;
+ }
+
+
+ 
